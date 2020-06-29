@@ -17,13 +17,11 @@ If you have any questions or feel the code needs further clarification in the fo
 If you use AMIGo in your research and found it helpful, or are comparing against our results, please consider citing the following paper:
 
 ```bib
-@misc{campero2020learning,
-    title={Learning with AMIGo: Adversarially Motivated Intrinsic Goals},
-    author={Andres Campero and Roberta Raileanu and Heinrich Küttler and Joshua B. Tenenbaum and Tim Rocktäschel and Edward Grefenstette},
-    year={2020},
-    eprint={2006.12122},
-    archivePrefix={arXiv},
-    primaryClass={cs.LG}
+@article{campero2020learning,
+  title={Learning with AMIGo: Adversarially Motivated Intrinsic Goals},
+  author={Campero, Andres and Raileanu, Roberta and K{\"u}ttler, Heinrich and Tenenbaum, Joshua B and Rockt{\"a}schel, Tim and Grefenstette, Edward},
+  journal={arXiv preprint arXiv:2006.12122},
+  year={2020}
 }
 ```
 
