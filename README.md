@@ -50,6 +50,10 @@ OMP_NUM_THREADS=1 python -m monobeast.minigrid.monobeast_amigo --env MiniGrid-Ke
 --generator_reward_negative -.3 --disable_checkpoint \
 --savedir ./experimentMinigrid
 ```
+Please be sure to use --total_frames as in the paper:
+6e8 for KeyCorridorS4R3-v0, KeyCorridorS5R3-v0, ObstructedMaze-2Dlhb-v0, ObstructedMaze-1Q-v0
+3e7 for KeyCorridorS3R3 and ObstructedMaze-1Dl-v0
+
 
 ## Train the baselines on MiniGrid
 We used an open sourced [implementation](https://github.com/facebookresearch/impact-driven-exploration) of the exploration baselines (i.e. RIDE, RND, ICM, and Count). This code should be pulled in a separate local repository and run within a separate environment.
