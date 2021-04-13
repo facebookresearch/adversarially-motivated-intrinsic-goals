@@ -51,7 +51,9 @@ OMP_NUM_THREADS=1 python -m monobeast.minigrid.monobeast_amigo --env MiniGrid-Ke
 --savedir ./experimentMinigrid
 ```
 Please be sure to use --total_frames as in the paper:
+
 6e8 for KeyCorridorS4R3-v0, KeyCorridorS5R3-v0, ObstructedMaze-2Dlhb-v0, ObstructedMaze-1Q-v0
+
 3e7 for KeyCorridorS3R3 and ObstructedMaze-1Dl-v0
 
 
