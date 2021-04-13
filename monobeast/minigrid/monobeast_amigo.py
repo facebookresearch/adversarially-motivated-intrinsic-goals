@@ -58,7 +58,7 @@ parser.add_argument('--disable_checkpoint', action='store_true',
                     help='Disable saving checkpoint.')
 parser.add_argument('--savedir', default='./experimentsMinigrid',
                     help='Root dir where experiment data will be saved.')
-parser.add_argument('--total_frames', default=5000000000, type=int, metavar='T',
+parser.add_argument('--total_frames', default=600000000, type=int, metavar='T',
                     help='Total environment frames to train for.')
 parser.add_argument('--num_actors', default=4, type=int, metavar='N',
                     help='Number of actors (default: 4).')
@@ -108,7 +108,7 @@ parser.add_argument('--state_embedding_dim', default=256, type=int,
                     help='Dimension of the state embedding representation used in the student')
 parser.add_argument('--generator_reward_negative', default= -0.1, type=float,
                     help='Coefficient for the intrinsic reward')
-parser.add_argument('--generator_threshold', default=0.1, type=float,
+parser.add_argument('--generator_threshold', default=-0.5, type=float,
                     help='Threshold mean reward for wich scheduler increases difficulty')
 parser.add_argument('--generator_counts', default=10, type=int,
                     help='Number of time before generator increases difficulty')
